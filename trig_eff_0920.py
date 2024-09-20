@@ -56,7 +56,7 @@ file12 = ROOT.TFile.Open('Ntuples3/version_2/run3_QCD_MC23d_Zmumu_VBFtrigger_202
 mc23d_qcd['vbf'][0] = file12.Get('Nominal')
 
 # save directory for plots
-directory = 'trig_eff_0920_etacuts'
+directory = 'trig_eff_0920'
 
 # parameters for which to determine trigger efficiency
 params = ['pTJ1', 'pTJ2', 'etaJ1', 'etaJ2', 'mJJ', 'dPhiJJ', 'dEtaJJ', 'min(pTJ1,pTJ2)', 'max(pTJ1,pTJ2)']
